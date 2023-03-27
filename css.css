@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    text-align: center;
+    background-color: blueviolet;
+    background-size: cover;
+    min-width: 100vh;    
+}
+
+.container{
+    text-align: center;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+    right: 25vh;
+}
+
+
+.arcade { 
+    width: 100%;
+    max-width: 425px;
+}
+
+.lol_image {
+    justify-content: center;
+    position: relative;
+    width: 50%;
+    bottom: 16vh;
+    left: 52vh;
+    
+}
+
+.btn-prev {
+    position: relative; /*relativo ao container*/
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    left: 190%;
+    bottom: 2vh;
+}
+
+.btn-next{
+    position: relative;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    left: 520%;
+    bottom: 3vh;
+}
+
+#texto-imagem {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    right: 80vh;
+    position: fixed;
+    font-size: 250%;
+    width: 20vw;
+    height: 6vh;
+    bottom: 85%;
+    color: aquamarine;
+    text-shadow: 1px 1px  white;
+}
